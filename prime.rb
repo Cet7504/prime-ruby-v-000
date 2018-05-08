@@ -1,7 +1,7 @@
 def prime?(num)
   if num <= 1
     false
-  else num == 2
+  elsif num == 2
     true
   else
     (2..num-1).to_a.all? do |i|
@@ -9,5 +9,3 @@ def prime?(num)
     end
   end
 end
-  
-    
